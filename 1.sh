@@ -19,7 +19,7 @@ cd *2.0.1
 printMsg "Now in directory: `pwd`"
 
 printMsg 'Configuring binutils'
-./configure --nfp --disable-werror --target=mips-harvard-os161 --prefix=$HOME/sys161/tools 
+./configure --nfp --disable-werror --target=mips-harvard-os161 --prefix=$HOME/sys161/tools
 
 pringtMsg 'Making binutils'
 make
