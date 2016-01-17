@@ -33,3 +33,10 @@ bmake install
 printMsg 'Copying configuration file'
 cd $HOME/cs431-os161/root
 cp $HOME/sys161/sys161.conf sys161.conf
+
+printMsg 'CONGRATULATIONS YOU FINISHED THE INSTALLATION PROCESS!!'
+echo 'To check if everything worked, execute the following two commands: '
+echo 'cd $HOME/cs431-os161/root'
+echo 'sys161 kernel-ASST0'
+echo 'You should see a terminal pop up, if so, whoo-hoo it worked!'
+echo 'If not, better luck next time!'
